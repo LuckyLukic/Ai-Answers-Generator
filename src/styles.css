@@ -8,6 +8,10 @@ body {
   background-color: #000e1e;
 }
 
+#api-key{
+  margin-left: auto;
+}
+
 .App {
   text-align: center;
   background-color: #000e1e;
