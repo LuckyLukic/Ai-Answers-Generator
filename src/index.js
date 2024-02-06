@@ -48,6 +48,7 @@ async function getData(input) {
         spinner.style.display = 'none';
         arrow.style.display = 'inline';
     }
+    console.log(apiKeyInput.value);
   } catch (error) {
       console.error("ERROR: " + error);
       resultP.textContent = error;
